@@ -1,0 +1,29 @@
+body {
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+input, select, button {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+#funfact-box {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
